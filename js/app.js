@@ -151,7 +151,7 @@ function showInfo(data) {
 
   const img = document.createElement("img");
   img.src = albumImg;
-  img.classList.add("w-48", "md:w-64", "h-48", "md:h-64", "mx-auto", "rounded");
+  img.style.width="200px";
 
   let albumInner = "Álbum: ";
 
